@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Den of Superheros⛑</title>
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="">
+  <div class="containter-fluid bg-dark text-light">
+    <div class="row">
+      <div class="col-3 text-center py-2">Subscribe >></div>
+      <div class="col-6 text-center">
+        <h3>Superhero Den</h3>
+      </div>
+      <div class="col-3 text-center py-2 d-flex justify-content-around"><i class="mdi mdi-facebook"></i><i
+          class="mdi mdi-twitter"></i><i class="mdi mdi-instagram"></i><i class="mdi mdi-youtube"></i><i
+          class="mdi mdi-twitch"></i></div>
+      <div class="col-12 border-top border-secondary">
+        <div class="row my-2">
+          <div class="col-2"></div>
+          <div class="col-1">Movies</div>
+          <div class="col-1">TV</div>
+          <div class="col-1">Games</div>
+          <div class="col-1">Books</div>
+          <div class="col-1">Comics</div>
+          <div class="col-1">Culture</div>
+          <div class="col-1">Video</div>
+          <div class="col-1">Shopping</div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="container-fluid">
+    <div class="row hero align-content-end">
+      <div class="col-6 text-light mx-5 px-5">
+        <i class="mdi mdi-television"></i>
+        <h1>Superheros Dominate Human Life</h1>
+        <p>By Some Human Dude</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- top row 3 images -->
+  <main class="container-fluid">
+    <div class="row mt-5">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row">
+          <div class="col-3">
+            <div class="row">
+              <div class="col-12">
+                <img class="w-100" src="batman1.jfif" alt="batman">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+                <h3>Batman is back</h3><b>By Bruce Swayne</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-12 px-5 w-100"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                  alt="comics"></div>
+              <div class="col-12 p-5 text-center"><i class="mdi mdi-book"></i>
+                <h3>Comics for Life</h3><b>By Comiclover89</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row">
+              <div class="col-12 px-5 w-100"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1534809027769-b00d750a6bac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+                  alt="spidey"></div>
+              <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+                <h3>What's Up with MR. spiderman?</h3>
+                <b>By Peter Stalker</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-1"></div>
+    </div>
+    <!-- first light bg -->
+    <div class="row bg-lighter">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row position-relative">
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-light pill-btn spill position-absolute">
+              <h2>BIG STORIES</h2>
+            </button>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1551103782-8ab07afd45c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-nintendo-switch"></i>
+                <h2>Mario Returns</h2><b>By The Older TwinBrother</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1608433034711-ef6974daf968?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+                <h2>Batman's Back</h2><b>By His Friendly Stalker</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+                <h2>Captain America Comes Forward</h2><b>By John Doe</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1606979516934-cd4231e6e6f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-nintendo-switch"></i>
+                <h2>Luigi's First Fireball!</h2><b>By The Younger TwinBrother</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row position-relative mt-5">
+
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-light pill-btn spill position-absolute">
+              <h2>LATEST VIDEOS</h2>
+            </button>
+          </div>
+
+          <div class="col-12 px-5" mt-5><img
+              src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              class="w-100 mt-3 mb-5">
+          </div>
+
+
+        </div>
+      </div>
+      <div class=" col-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-7">
+        <div class="row mt-5">
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-light pill-btn spill position-absolute">
+              <h2>LATEST STORIES</h2>
+            </button>
+          </div>
+          <div class="col-6">
+            <div class="row text-center">
+              <div class="col-12 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-12"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row text-center">
+              <div class="col-12 text-center"><img
+                  src="https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q80="
+                  class="w-100 h-50">
+                <i class="mdi mdi-television"></i>
+                <h3>Wow, Glowy Hands Creepy Kid</h3><br>
+                By You're Average Concerned Father
+              </div>
+
+            </div>
+          </div>
+          <!-- this is where the sideways pictures start -->
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row position-relative bg-lighter">
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-dark pill-btn position-absolute">
+              <h2>MUST READS</h2>
+            </button>
+          </div>
+          <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-book"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-television"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-book"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-devices"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row m-3">
+          <div class="col">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">
+                  <h3>Join our mailing list</h3>
+                </span>
+              </div>
+              <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <!-- The second light bg -->
+    <div class="row bg-lighter">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row position-relative">
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-light pill-btn spill position-absolute">
+              <h2>ON TV NOW</h2>
+            </button>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1551103782-8ab07afd45c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-nintendo-switch"></i>
+                <h2>Mario Returns</h2><b>By The Older TwinBrother</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1608433034711-ef6974daf968?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+                <h2>Batman's Back</h2><b>By His Friendly Stalker</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+                <h2>Captain America Comes Forward</h2><b>By John Doe</b>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 px-3 mt-5">
+            <div class="row">
+              <div class="col-12"><img class="w-100"
+                  src="https://images.unsplash.com/photo-1606979516934-cd4231e6e6f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+              </div>
+              <div class="col-12 text-center"><i class="mdi mdi-nintendo-switch"></i>
+                <h2>Luigi's First Fireball!</h2><b>By The Younger TwinBrother</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-1"></div>
+      <div class="col-7">
+        <div class="row mt-5">
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-light pill-btn spill position-absolute">
+              <h2>LATEST STORIES</h2>
+            </button>
+          </div>
+          <div class="col-6">
+            <div class="row text-center">
+              <div class="col-12 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-12"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row text-center">
+              <div class="col-12 text-center"><img
+                  src="https://images.unsplash.com/photo-1603652338609-84d94118f52c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q80="
+                  class="w-100 h-50">
+                <i class="mdi mdi-television"></i>
+                <h3>Wow, Glowy Hands Creepy Kid</h3><br>
+                By You're Average Concerned Father
+              </div>
+
+            </div>
+          </div>
+          <!-- this is where the sideways pictures start -->
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row border-top border-dark p-3">
+              <div class="col-6 text-center"><img
+                  src="https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                  class="w-100">
+              </div>
+              <div class="col-6"><i class="mdi mdi-television"></i>
+                <h3>Even Kids Are Turning Into Superheros</h3><br>
+                By You're Average Joe's Father
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row position-relative bg-lighter">
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-dark pill-btn position-absolute">
+              <h2>MUST READS</h2>
+            </button>
+          </div>
+          <div class="col-12 text-center"><i class="mdi mdi-television"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-book"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-television"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-book"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+          <div class="col-12 text-center border-top border-dark"><i class="mdi mdi-devices"></i>
+            <h3>Big News Coming Out Soon</h3><br>By Somebody we love
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row bg-lighter">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="row">
+
+          <div class="col-12">
+            <hr class="thickline">
+          </div>
+          <div class="col-12 text-center position-absolute">
+            <button class="btn btn-light pill-btn spill position-absolute">
+              <h2>BIG STORIES</h2>
+            </button>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+          <div class="col-4 my-4">
+            <div class="col-12 px-5"><img
+                src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    </div>
+
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <footer class="container-fluid bg-dark text-light">
+    <div class="row">
+      <div class="col-3">
+        <div class="row">
+          <div class="col-12">Den of Geeks</div>
+          <div class="col-12">Social Media</div>
+          <div class="col-12">Trademark</div>
+        </div>
+      </div>
+
+      <div class="col-9">
+        <div class="row justify-content-center align-items-center my-4">
+          <div class="col-2">About Us</div>
+          <div class="col-2">Sitemap</div>
+          <div class="col-2">Authors</div>
+          <div class="col-2">Subscribe Today</div>
+          <div class="col-2">Privacy Policy</div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
